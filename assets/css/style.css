@@ -240,13 +240,9 @@ header .grid-layout nav .nav-list li a{font-size:2.4rem}
 
 #s-projects .grid-layout #projects{margin:24px 0px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;text-align:left}
 
-#s-projects .grid-layout #projects .lamp{border:1px solid #e51d37}
+#s-projects .grid-layout #projects .trip-tour{border:1px solid #00a3ff}
 
-#s-projects .grid-layout #projects .lamp:hover{border:1px solid #e51d37}
-
-#s-projects .grid-layout #projects .To-Do-App{border:1px solid #00a3ff}
-
-#s-projects .grid-layout #projects .To-Do-App:hover{border:1px solid #00a3ff}
+#s-projects .grid-layout #projects .trip-tour:hover{border:1px solid #00a3ff}
 
 #s-projects .grid-layout #projects .coffee{border:1px solid #a6fb98}
 
@@ -263,10 +259,6 @@ header .grid-layout nav .nav-list li a{font-size:2.4rem}
 #s-projects .grid-layout #projects>article h3{color:#fff;font-size:2.4rem;font-weight:500}
 
 #s-projects .grid-layout #projects>article p{line-height:24px;margin:24px 0px;color:#9ca3af;line-height:3.2rem;font-size:1.8rem}
-
-#s-projects .grid-layout #lamp{color:#e51d37}
-
-#s-projects .grid-layout #lamp::after{background:linear-gradient(270deg, #e51d37 0%, #17161d 100%)}
 
 #s-projects .grid-layout #trip-tour{color:#00a3ff}
 

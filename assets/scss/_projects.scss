@@ -13,12 +13,6 @@
       margin: $gap-3 0px;
       @include flexbox-between;
       text-align: left;
-      .lamp {
-        border: 1px solid #e51d37;
-        &:hover {
-          border: 1px solid #e51d37;
-        }
-      }
       .trip-tour {
         border: 1px solid #00a3ff;
         &:hover {
@@ -52,13 +46,6 @@
             size: 1.8rem;
           }
         }
-      }
-    }
-    #lamp {
-      color: #e51d37;
-
-      &::after {
-        background: linear-gradient(270deg, #e51d37 0%, #17161d 100%);
       }
     }
 
