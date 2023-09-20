@@ -19,13 +19,13 @@
           border: 1px solid #e51d37;
         }
       }
-      .To-Do-App {
+      .trip-tour {
         border: 1px solid #00a3ff;
         &:hover {
           border: 1px solid #00a3ff;
         }
       }
-      .Barber {
+      .coffee {
         border: 1px solid #a6fb98;
         &:hover {
           border: 1px solid #a6fb98;
@@ -62,7 +62,7 @@
       }
     }
 
-    #To-Do-App {
+    #trip-tour {
       color: #00a3ff;
 
       &::after {
@@ -70,7 +70,7 @@
       }
     }
 
-    #Barber {
+    #coffee {
       color: #a6fb98;
 
       &::after {
