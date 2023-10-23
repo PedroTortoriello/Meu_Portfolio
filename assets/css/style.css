@@ -422,17 +422,25 @@ header .grid-layout nav .nav-list li a:hover{
    text-align:left
 }
 #s-projects .grid-layout #projects .trip-tour{
-   border:1px solid #00a3ff
+   border:1px solid;
 }
 #s-projects .grid-layout #projects .trip-tour:hover{
    border:1px solid #00a3ff
 }
 #s-projects .grid-layout #projects .coffee{
-   border:1px solid #a6fb98
+   border:1px solid;
 }
 #s-projects .grid-layout #projects .coffee:hover{
    border:1px solid #a6fb98
 }
+
+#s-projects .grid-layout #projects .barbearia{
+   border:1px solid;
+}
+#s-projects .grid-layout #projects .barbearia:hover{
+   border:1px solid #e0c429
+}
+
 #s-projects .grid-layout #projects>article{
    background-color:#151515;
    height:auto;
@@ -481,6 +489,14 @@ header .grid-layout nav .nav-list li a:hover{
 #s-projects .grid-layout #coffee::after{
    background:linear-gradient(270deg, #a6fb98 0%, #17161d 100%)
 }
+
+#s-projects .grid-layout #barbearia{
+   color:#e0c429
+}
+#s-projects .grid-layout #barbearia::after{
+   background:linear-gradient(270deg, #e0c429 0%, #17161d 100%)
+}
+
 #s-projects .grid-layout a{
    color:#986dff;
    position:relative;

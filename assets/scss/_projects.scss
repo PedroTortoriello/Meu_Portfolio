@@ -25,6 +25,12 @@
           border: 1px solid #a6fb98;
         }
       }
+      .barbearia {
+        border: 1px solid #e0c429;
+        &:hover {
+          border: 1px solid #e0c429;
+        }
+      }
       > article {
         background-color: $bg-secondary;
 
@@ -51,6 +57,14 @@
 
     #trip-tour {
       color: #00a3ff;
+
+      &::after {
+        background: linear-gradient(270deg, #00a3ff 0%, #17161d 100%);
+      }
+    }
+
+    #barbearia {
+      color: #e0c429;
 
       &::after {
         background: linear-gradient(270deg, #00a3ff 0%, #17161d 100%);

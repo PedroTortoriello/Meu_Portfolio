@@ -32,12 +32,6 @@
             color: $color-main;
           }
         }
-        .changeDescription {
-          transition: 2s all ease;
-          @include responsive-mobile {
-            display: none;
-          }
-        }
         p {
           max-width: 500px;
           line-height: 3.2rem;
